@@ -1,8 +1,13 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Index() {
   return (
     <div>
+      <Head>
+        <title>Hey</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <p className="eliza">Eliza,</p>
       <p className="question">¿Quieres ser mi novia?</p>
       <div className="links">
@@ -72,6 +77,31 @@ export default function Index() {
           content: '';
           background-color: black;
           z-index: -1;
+        }
+
+        @media (max-width: 400px) {
+          .date {
+            font-size: 40px;
+          }
+
+          .eliza {
+            font-size: 45px;
+          }
+
+          .question {
+            font-size: 50px;
+          }
+
+          .links a {
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            border: 1px solid white;
+            width: 100px;
+            text-align: center;
+            padding: 0.5rem 1rem;
+          }
         }
 
       `}</style>

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -107,41 +107,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/abrahamlopez/Documents/ely/pages/yes.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 function Index() {
   return __jsx("div", {
-    className: "jsx-2908455215",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "jsx-2908455215" + " " + "emoji",
+    className: "jsx-1842422696",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, "\uD83D\uDC96"), __jsx("p", {
-    className: "jsx-2908455215" + " " + "date",
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, "29 / 01 / 20"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2908455215",
+  }, __jsx("title", {
+    className: "jsx-1842422696",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
     __self: this
-  }, "html{height:100%;width:100%;overflow:hidden;}body{margin:0;padding:1rem 2rem;background:black;color:white;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;}p{margin:0;font-size:75px;text-align:center;max-width:100%;}.date{border:1px solid white;padding:0.5rem 1rem;}.emoji{position:absolute;font-size:25px;padding:0;top:45.5%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;right:0;margin:auto;}.fail{padding:5rem 0 0;margin:0 auto;font-size:20px;position:relative;width:200px;}.fail::after{text-align:center;position:absolute;height:5px;opacity:0.7;width:100%;bottom:0;left:0;content:'';background-color:black;z-index:-1;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYnJhaGFtbG9wZXovRG9jdW1lbnRzL2VseS9wYWdlcy95ZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS3lCLEFBR3VCLEFBTUgsQUFXQSxBQU9jLEFBS0wsQUFXRCxBQVFDLFNBekNBLEFBV0gsR0FqQkosS0F3Q0csQ0FYQyxBQW1CRyxLQS9DRixBQXVCRyxDQU5GLEdBWEEsSUFrQ0YsRUFYTCxHQW1CQyxHQS9DYixHQWlCaUIsQ0FNakIsQUFNWSxDQXZCRSxFQWtDTSxDQVFOLE1BbEJlLEdBdkJkLENBV2YsRUErQmEsS0FSQyxNQVNILE1BUlgsR0FTUyxPQUNJLFdBQ1ksdUJBQ1osVUE5Q1ksQ0ErQ3pCLGVBeEJTLE9BQ0MsUUFDSSxZQUNkLHdEQXpCcUIsNkZBQ1AsWUFDZCIsImZpbGUiOiIvVXNlcnMvYWJyYWhhbWxvcGV6L0RvY3VtZW50cy9lbHkvcGFnZXMveWVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSW5kZXgoKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxwIGNsYXNzTmFtZT1cImVtb2ppXCI+8J+SljwvcD5cbiAgICAgIDxwIGNsYXNzTmFtZT1cImRhdGVcIj4yOSAvIDAxIC8gMjA8L3A+XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICBodG1sIHtcbiAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgfVxuXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBwYWRkaW5nOiAxcmVtIDJyZW07XG4gICAgICAgICAgYmFja2dyb3VuZDogYmxhY2s7XG4gICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIH1cblxuICAgICAgICBwIHtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgZm9udC1zaXplOiA3NXB4O1xuICAgICAgICAgIHRleHQtYWxpZ24gY2VudGVyO1xuICAgICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5kYXRlIHtcbiAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB3aGl0ZTtcbiAgICAgICAgICBwYWRkaW5nIDAuNXJlbSAxcmVtO1xuICAgICAgICB9XG5cbiAgICAgICAgLmVtb2ppIHtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgZm9udC1zaXplOiAyNXB4O1xuICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgdG9wOiA0NS41JTtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSk7XG4gICAgICAgICAgbGVmdDogMDtcbiAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICBtYXJnaW46IGF1dG87XG4gICAgICAgIH1cblxuICAgICAgICAuZmFpbCB7XG4gICAgICAgICAgcGFkZGluZzogNXJlbSAwIDA7XG4gICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICB3aWR0aDogMjAwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAuZmFpbDo6YWZ0ZXIge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgaGVpZ2h0OiA1cHg7XG4gICAgICAgICAgb3BhY2l0eTogMC43O1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgIGNvbnRlbnQ6ICcnO1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgICAgICAgIHotaW5kZXg6IC0xO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gIClcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/abrahamlopez/Documents/ely/pages/yes.js */"));
+  }, "Gracias"), __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    className: "jsx-1842422696",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  })), __jsx("p", {
+    className: "jsx-1842422696" + " " + "emoji",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\uD83D\uDC96"), __jsx("p", {
+    className: "jsx-1842422696" + " " + "date",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "29 / 01 / 20"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1842422696",
+    __self: this
+  }, "html{height:100%;width:100%;overflow:hidden;}body{margin:0;padding:1rem 2rem;background:black;color:white;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;}p{margin:0;font-size:75px;text-align:center;max-width:100%;}.date{border:1px solid white;padding:0.5rem 1rem;}.emoji{position:absolute;font-size:25px;padding:0;top:45.5%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;right:0;margin:auto;}@media (max-width:400px){.date{font-size:40px;}.emoji{font-size:20px;top:47.5%;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYnJhaGFtbG9wZXovRG9jdW1lbnRzL2VseS9wYWdlcy95ZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVXlCLEFBR3VCLEFBTUgsQUFXQSxBQU9jLEFBS0wsQUFZRCxBQUlBLFNBdENDLEFBV0gsR0FqQkosR0F5Q1gsQUFJWSxHQWhCRyxLQTVCQyxBQXVCRyxDQU5GLENBNEJqQixFQXZDaUIsTUF1QlAsTUE1QlosR0FpQmlCLENBTWpCLEFBTVksQ0F2QkUsU0F3QmUsR0F2QmQsQ0FXZix5RUFWeUIsZ0JBdUJoQixPQUNDLFFBQ0ksWUFDZCx3REF6QnFCLDZGQUNQLFlBQ2QiLCJmaWxlIjoiL1VzZXJzL2FicmFoYW1sb3Blei9Eb2N1bWVudHMvZWx5L3BhZ2VzL3llcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEluZGV4KCkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPkdyYWNpYXM8L3RpdGxlPlxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwiaW5pdGlhbC1zY2FsZT0xLjAsIHdpZHRoPWRldmljZS13aWR0aFwiIC8+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8cCBjbGFzc05hbWU9XCJlbW9qaVwiPvCfkpY8L3A+XG4gICAgICA8cCBjbGFzc05hbWU9XCJkYXRlXCI+MjkgLyAwMSAvIDIwPC9wPlxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgaHRtbCB7XG4gICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICAgIH1cblxuICAgICAgICBib2R5IHtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgcGFkZGluZzogMXJlbSAycmVtO1xuICAgICAgICAgIGJhY2tncm91bmQ6IGJsYWNrO1xuICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICB9XG5cbiAgICAgICAgcCB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIGZvbnQtc2l6ZTogNzVweDtcbiAgICAgICAgICB0ZXh0LWFsaWduIGNlbnRlcjtcbiAgICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgICAgIH1cblxuICAgICAgICAuZGF0ZSB7XG4gICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgd2hpdGU7XG4gICAgICAgICAgcGFkZGluZyAwLjVyZW0gMXJlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5lbW9qaSB7XG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMjVweDtcbiAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgIHRvcDogNDUuNSU7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xuICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgICAgbWFyZ2luOiBhdXRvO1xuICAgICAgICB9XG5cbiAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDQwMHB4KSB7XG4gICAgICAgICAgLmRhdGUge1xuICAgICAgICAgICAgZm9udC1zaXplOiA0MHB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5lbW9qaSB7XG4gICAgICAgICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgICAgICAgICB0b3A6IDQ3LjUlO1xuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApXG59XG4iXX0= */\n/*@ sourceURL=/Users/abrahamlopez/Documents/ely/pages/yes.js */"));
 }
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!****************************!*\
   !*** multi ./pages/yes.js ***!
   \****************************/
@@ -150,6 +175,17 @@ function Index() {
 
 module.exports = __webpack_require__(/*! /Users/abrahamlopez/Documents/ely/pages/yes.js */"./pages/yes.js");
 
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

@@ -1,6 +1,11 @@
+import Head from 'next/head'
 export default function Index() {
   return (
     <div>
+      <Head>
+        <title>Gracias</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <p className="emoji">💖</p>
       <p className="date">29 / 01 / 20</p>
       <style jsx global>{`
@@ -44,25 +49,15 @@ export default function Index() {
           margin: auto;
         }
 
-        .fail {
-          padding: 5rem 0 0;
-          margin: 0 auto;
-          font-size: 20px;
-          position: relative;
-          width: 200px;
-        }
+        @media (max-width: 400px) {
+          .date {
+            font-size: 40px;
+          }
 
-        .fail::after {
-          text-align: center;
-          position: absolute;
-          height: 5px;
-          opacity: 0.7;
-          width: 100%;
-          bottom: 0;
-          left: 0;
-          content: '';
-          background-color: black;
-          z-index: -1;
+          .emoji {
+            font-size: 20px;
+            top: 47.5%;
+          }
         }
       `}</style>
     </div>
